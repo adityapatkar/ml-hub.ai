@@ -1,3 +1,6 @@
+sudo apt update
+sudo apt install libgl1-mesa-glx
+
 mkdir -p ~/.streamlit/
 echo "\
 [server]\n\
