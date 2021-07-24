@@ -103,7 +103,7 @@ def detect_objects(our_image):
 def face_main():
     
     st.title("Face Detection")
-    st.write("Object detection is a central algorithm in computer vision. The algorithm implemented below is YOLO (You Only Look Once), a state-of-the-art algorithm trained to identify thousands of objects types. It extracts objects from images and identifies them using OpenCV and Yolo. This task involves Deep Neural Networks(DNN), yolo trained model, yolo configuration and a dataset to detect objects.")
+    st.write("Businesses don't have to spend fortunes to detect faces anymore. Just drag and drop images into our custom model and you'll know if a person exists in the photo. Video support is planned in the future to let you install our models in smart door bells or CCTVs. Possibilities are endless!")
 
     choice = st.radio("", ("Show Demo", "Browse an Image"))
     st.write()
@@ -128,7 +128,7 @@ def object_main():
     """OBJECT DETECTION APP"""
 
     st.title("Object Detection")
-    st.write("Object detection is a central algorithm in computer vision. The algorithm implemented below is YOLO (You Only Look Once), a state-of-the-art algorithm trained to identify thousands of objects types. It extracts objects from images and identifies them using OpenCV and Yolo. This task involves Deep Neural Networks(DNN), yolo trained model, yolo configuration and a dataset to detect objects.")
+    st.write("Object detection is a central algorithm in computer vision. The algorithm implemented below is YOLO (You Only Look Once), a state-of-the-art algorithm trained to identify 80 objects types. It extracts objects from images and identifies them using OpenCV and Yolo. This task involves Deep Neural Networks(DNN), yolo trained model, yolo configuration and a dataset to detect objects.")
 
     choice = st.radio("", ("Show Demo", "Browse an Image"))
     st.write()
